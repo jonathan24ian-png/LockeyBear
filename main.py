@@ -1,6 +1,10 @@
-
-
-print("Welcome to LockeyBear")
-print(“Welcome to LockyBear! I am going to help you manage passwords! 🐻”)
-
-print("test versions")
+import io
+def save_password(entity_name, password):
+    entity_name=input("Enter entity saving password:")
+    f = io.open(entity_name, 'w')
+    f.write(entity_name)
+    f.close()
+    password = input ("enter your password:")
+    f - io.open(entity_name, "a")
+    f.write(entity_name)
+    f.close()
