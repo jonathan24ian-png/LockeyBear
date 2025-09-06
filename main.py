@@ -5,6 +5,6 @@ def save_password(entity_name, password):
     f.write(entity_name)
     f.close()
     password = input ("enter your password:")
-    f - io.open(entity_name, "a")
+    f = io.open(entity_name, "a")
     f.write(entity_name)
     f.close()
